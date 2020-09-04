@@ -9,7 +9,7 @@ Parameters/flags:
 -output_path \<string\> : set a path for the output. Default path is the current location  
 -output_filename \<string\> : set the output filename (.csv) containing the results. Required if need an output file  
 -startDate \<date\> : Set the start date of the search using international date format (DD/MM/YYYY HH:mm:ss)  
--endDate \<date\> : Set the start date of the search using international date format (DD/MM/YYYY HH:mm:ss). Default value is the current datetime.  
+-endDate \<date\> : Set the end date of the search using international date format (DD/MM/YYYY HH:mm:ss). Default value is the current datetime.  
 [-output_full_option] : Full output result. Required the -ouput_filename flag enabled  
 [-export_emails_html] : Export emails results in html file  
 [-deep] : Deep search using html body  
