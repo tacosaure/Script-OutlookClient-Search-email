@@ -2,14 +2,14 @@
 
 Parameters/flags:
 
--skip <string> : skip folders containing this string  
--keyword <string> : search emails containing this string. Default : search in email's subject  
--mailbox_folder <string> : set the targeted folder with a 1st lvl folder name  
--email_address <string> : set the targeted mailbox  
--output_path <string> : set a path for the output. Default path is the current location  
--output_filename <string> : set the output filename (.csv) containing the results. Required if need an output file  
--startDate <date> : Set the start date of the search using international date format (DD/MM/YYYY HH:mm:ss)  
--endDate <date> : Set the start date of the search using international date format (DD/MM/YYYY HH:mm:ss). Default value is the current datetime.  
+-email_address \<string\> : set the targeted mailbox (name show in outlook)  
+-mailbox_folder \<string\> : set the targeted folder with a 1st lvl folder name (i.e, "inbox")  
+-skip \<string\> : skip folders containing this string  
+-keyword \<string\> : search emails containing this string. Default : search in email's subject   
+-output_path \<string\> : set a path for the output. Default path is the current location  
+-output_filename \<string\> : set the output filename (.csv) containing the results. Required if need an output file  
+-startDate \<date\> : Set the start date of the search using international date format (DD/MM/YYYY HH:mm:ss)  
+-endDate \<date\> : Set the start date of the search using international date format (DD/MM/YYYY HH:mm:ss). Default value is the current datetime.  
 [-output_full_option] : Full output result. Required the -ouput_filename flag enabled  
 [-export_emails_html] : Export emails results in html file  
 [-deep] : Deep search using html body  
